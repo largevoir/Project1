@@ -1,1 +1,17 @@
 Черкасский Данил
+
+#include <stdio.h>
+#include <windows.h>
+#include<math.h>
+void main(){
+	SetConsoleCP(1251); 
+	SetConsoleOutputCP(1251); 
+	double C, F, K;
+	printf("Введите температуру в цельсиях  ");
+	scanf("%lf", &C);
+	F = C * 9 / 5 + 32;
+	K = C + 273.15;
+	printf("Температура в фаренгейтах равна %lf \n", F);
+	printf("Температура в кельвинах равна %lf \n", K);
+
+}
